@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Telefoni i prishur digjital</title>
+</head>
+<body>
+    <header>
+        <img class="phone" src="img/office-phone.png"> 
+        <h1> Telefoni i prishur </h1>
+    </header>
+    <center>
+        <h1> Lojtari </h1>
+        
+            <label for="emrilojtarit">Emri i lojtarit</label>
+            <input type="text" id="emrilojtarit" name="emrilojtarit"><br><br>
+            <label for="fjalaedegjuar">Fjala e degjuar</label>
+            <input type="text" id="fjalaedegjuar" name="fjalaedegjuar"><br><br>
+            <button onclick="merrteDhenat()"> Shto fjalen </button>
+            <button onclick="finish()"> Perfundo lojen </button>
+    </center>
+    
+    <center><div class="results">
+        <table>
+            <tr>
+              <th>Lojtari</th>
+              <th>Fjala e shenuar</th>
+            </tr>
+        </table>
+    </div></center>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
